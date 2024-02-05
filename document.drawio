@@ -1,9 +1,252 @@
 <mxfile host="65bd71144e">
     <diagram id="6oKhAGV_5npjJfOPnT8b" name="システム概要図">
-        <mxGraphModel dx="816" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1632" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#66B2FF;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-2" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="70" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="140" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="130" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-5" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="140" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-6" value="Aさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#66B2FF;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="240" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-8" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="270" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-9" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="340" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="330" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-11" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="340" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-12" value="Bさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="240" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#66B2FF;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="440" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-14" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="470" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-15" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="540" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-16" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="530" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-17" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="540" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-18" value="Cさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="440" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFF00;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="160" width="320" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-20" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="200" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-21" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="488" y="320" width="86" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-22" value="" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="320" width="70" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1000" y="40" width="280" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-31" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="70" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-33" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="130" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-34" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="125" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-35" value="Aさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1052.5" y="45" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-36" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="142.5" width="30" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-37" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="70" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-38" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="130" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="125" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-40" value="Bさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1192.5" y="45" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-41" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="142.5" width="30" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-42" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="205" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-43" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="265" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-44" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="260" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-45" value="Cさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1052.5" y="180" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-46" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="277.5" width="30" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-47" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="205" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-48" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="265" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-49" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="260" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-50" value="Dさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1192.5" y="180" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-51" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="277.5" width="30" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-52" value="グループ1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="170" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-53" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1000" y="440" width="280" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-54" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="470" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-55" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="530" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-56" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="525" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-57" value="Eさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1052.5" y="445" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-58" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="542.5" width="30" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-59" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="470" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-60" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="530" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-61" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="525" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-62" value="Fさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1192.5" y="445" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-63" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="542.5" width="30" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-64" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="605" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-65" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="665" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="660" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-67" value="Gさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1052.5" y="580" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-68" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="677.5" width="30" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-69" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="605" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-70" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="665" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-71" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="660" width="20" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-72" value="Hさん" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1192.5" y="580" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-73" value="or" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="677.5" width="30" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-74" value="グループ2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-75" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#FFB366;rotation=15;" vertex="1" parent="1">
+                    <mxGeometry x="224" y="91.64999999999999" width="190" height="33.35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-76" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;strokeColor=#6666FF;rotation=15;" vertex="1" parent="1">
+                    <mxGeometry x="216.91" y="160" width="188.53" height="30.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-77" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#FFB366;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="227.54" y="280" width="190" height="33.35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-78" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;strokeColor=#6666FF;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="220.45" y="348.35" width="188.53" height="30.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-79" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#FFB366;rotation=-15;" vertex="1" parent="1">
+                    <mxGeometry x="234.63" y="480" width="190" height="33.35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-80" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;strokeColor=#6666FF;rotation=-15;" vertex="1" parent="1">
+                    <mxGeometry x="227.54" y="548.35" width="188.53" height="30.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-81" value="単語帳を作成" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="40" width="170" height="40.85" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-82" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#66FF66;rotation=-15;" vertex="1" parent="1">
+                    <mxGeometry x="797.0938113097179" y="190.7996224381097" width="190" height="33.35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-83" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;strokeColor=#FFB366;rotation=-15;" vertex="1" parent="1">
+                    <mxGeometry x="788.533811309718" y="119.9996224381097" width="188.53" height="30.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-84" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#66FF66;rotation=15;" vertex="1" parent="1">
+                    <mxGeometry x="797.8299999999999" y="563.3299999999999" width="190" height="33.35" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-85" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;strokeColor=#FFB366;rotation=15;" vertex="1" parent="1">
+                    <mxGeometry x="797.8299999999999" y="484.6" width="188.53" height="30.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-93" value="単語帳を閲覧" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="234" y="214.15" width="170" height="40.85" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-94" value="個人で作成した単語帳を共有&lt;br&gt;or グループで単語帳作成" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="60" width="170" height="40.85" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-95" value="グループ単語帳を閲覧" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="788.53" y="255" width="170" height="42.93" as="geometry"/>
+                </mxCell>
+                <mxCell id="yJhSCbKFTBHQfIKzYzMM-96" value="クラウド" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="85.41999999999999" width="182" height="69.15" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
