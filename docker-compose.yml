@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
     web:
-        image: psi:nginx
+        image: psi:web
         container_name: psi_web
         ports:
             - "8850:80"
@@ -20,7 +20,9 @@ services:
         container_name: psi_app
         volumes:
             - ./src:/var/www/app
-        command: python manage.py runserver
+        stdin_open: true
+        tty: true
+        command: python manage.py runserver 0.0.0.0:8000
         networks:
             - net
     
