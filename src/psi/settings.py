@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    #Django REST Frameworkを追加
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
