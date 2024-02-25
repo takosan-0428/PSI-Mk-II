@@ -14,11 +14,13 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+# psi/urls.py
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from myapp.views import HelloWorldAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/helloworld/', HelloWorldAPIView.as_view(), name='hello_world_api'),
+    path('api/', include('myapp.urls')),  # myappのURLをインクルードする
 ]
+

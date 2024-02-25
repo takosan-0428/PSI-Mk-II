@@ -5,3 +5,4 @@ class HelloWorldAPIView(APIView):
     def get(self, request):
         data = {"message": "Hello, World"}
         return Response(data)
+
