@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     
     #Django REST Frameworkを追加
     'rest_framework',
+    'myapp',
 ]
 
 MIDDLEWARE = [
