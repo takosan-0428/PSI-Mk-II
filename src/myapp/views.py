@@ -3,6 +3,6 @@ from rest_framework.response import Response
 
 class HelloWorldAPIView(APIView):
     def get(self, request):
-        data = {"message": "Hello, World"}
+        data = {"message": "野口聡"}
         return Response(data)
 

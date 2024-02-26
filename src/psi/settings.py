@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     
     #Django REST Frameworkを追加
     'rest_framework',
+    'corsheaders',
     'myapp',
 ]
 
@@ -51,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'psi.urls'
@@ -125,3 +127,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',  # Reactの開発サーバーのアドレスに置き換えてください
+    # 他の許可するオリジンを必要に応じて追加
+]
