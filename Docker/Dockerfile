@@ -27,7 +27,7 @@ FROM python:3.9.18 AS app-base
 SHELL [ "/bin/bash", "-c" ]
 
 # ポート開放
-EXPOSE 8000
+EXPOSE 8000 5173
 
 # requirements.txtのコピー
 COPY ./python/requirements.txt /var/www/app/requirements.txt
