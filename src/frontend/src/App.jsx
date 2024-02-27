@@ -1,25 +1,35 @@
-// Reactコンポーネント
-import React, { useState, useEffect } from 'react';
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import Post from "./posts";
+import PostClient from "./posts/create";
+import PostShow from "./posts/show";
 
-function HelloWorldComponent() {
-    const [message, setMessage] = useState('');
+import Group from "./group"; 
+import GroupClient from "./group/create"; 
 
-    useEffect(() => {
-        // APIのエンドポイントURLを正しく指定する
-        fetch('http://localhost:8850/api/helloworld/') // DjangoサーバーのURLを適切に設定する
-            .then(response => response.json())
-            .then(data => setMessage(data.message))
-            .catch(error => console.error('Error fetching message:', error));
-    }, []);
+const App = () => {
+  return (
+    <div>
+      <h1>PSI</h1>
+      <ul>
+        <li><Link to="/">単語帳</Link></li>
+        <li><Link to="/group">グループ</Link></li>
+      </ul>
+      <Routes>
+        <Route path="/" element={<Post />} />
+        <Route path="/create" element={<PostClient />} />
+        <Route path="/show" element={<PostShow/>} />
 
-    return (
-        <div>
-            <h1>Hello, World!</h1>
-            <p>あなたの名前は{message}です</p>
-        </div>
-    );
-}
+        <Route path="/group" element={<Group />} />
+        <Route path="/group/create" element={<GroupClient />} />
+      </Routes>
+    </div>
+  );
+};
 
-export default HelloWorldComponent;
+export default App;
+
+
+
 
 
