@@ -90,6 +90,8 @@ const PostClient = () => {
 
     return (
         <div>
+            <h3>タイトル</h3>
+            <input type="text"></input>
             {inputs.map(input => (
                 <div key={input.id}>
                     <select name="type" value={input.type} onChange={(e) => handleInputChange(input.id, e)}>
