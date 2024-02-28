@@ -63,6 +63,26 @@ const PostClient = () => {
         setInputs(newInputs);
     };
 
+    const handleMoveUp = id => {
+        const currentIndex = inputs.findIndex(input => input.id === id);
+        if (currentIndex === 0) return; // 最初の要素は上に移動できない
+        const newInputs = [...inputs];
+        const temp = newInputs[currentIndex];
+        newInputs[currentIndex] = newInputs[currentIndex - 1];
+        newInputs[currentIndex - 1] = temp;
+        setInputs(newInputs);
+    };
+
+    const handleMoveDown = id => {
+        const currentIndex = inputs.findIndex(input => input.id === id);
+        if (currentIndex === inputs.length - 1) return; // 最後の要素は下に移動できない
+        const newInputs = [...inputs];
+        const temp = newInputs[currentIndex];
+        newInputs[currentIndex] = newInputs[currentIndex + 1];
+        newInputs[currentIndex + 1] = temp;
+        setInputs(newInputs);
+    };
+
     const handleSave = () => {
         // ここで入力内容を保存する処理を実行
         console.log(inputs);
@@ -110,6 +130,8 @@ const PostClient = () => {
                     ) : (
                         <input type="text" name="value" value={input.value} onChange={(e) => handleInputChange(input.id, e)} />
                     )}
+                    <button onClick={() => handleMoveUp(input.id)}>↑</button>
+                    <button onClick={() => handleMoveDown(input.id)}>↓</button>
                     <button onClick={() => handleRemoveInput(input.id)}>削除</button>
                 </div>
             ))}
