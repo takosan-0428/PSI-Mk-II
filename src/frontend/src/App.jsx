@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <h1>PSI</h1>
       <ul>
-        <li><Link to="/">単語帳</Link></li>
+        <li><Link to="/">個人</Link></li>
         <li><Link to="/group">グループ</Link></li>
       </ul>
       <Routes>
