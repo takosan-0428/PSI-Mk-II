@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'psi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'db',
+        'PORT': '3306',
+        'NAME': 'PSI',
+        'USER': 'root',
+        'PASSWORD': 'IslamSaimun',
     }
 }
 
@@ -109,9 +113,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ja-jp'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tokyo'
 
 USE_I18N = True
 
@@ -127,6 +131,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',  # Reactの開発サーバーのアドレスに置き換えてください
     # 他の許可するオリジンを必要に応じて追加
