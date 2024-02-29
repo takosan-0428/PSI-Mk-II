@@ -14,6 +14,7 @@ const App = () => {
       <ul>
         <li><Link to="/">個人</Link></li>
         <li><Link to="/group">グループ</Link></li>
+        <li>ログアウト</li>
       </ul>
       <Routes>
         <Route path="/" element={<Post />} />
