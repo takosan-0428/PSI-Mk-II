@@ -7,4 +7,6 @@ docker build --target admin -t psi:admin ./Docker
 pip install djangorestframework
 pip install django-cors-headers
 
+python -m pip install Pillow
+
 npm install react-router-dom
