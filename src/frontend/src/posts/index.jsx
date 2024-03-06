@@ -2,9 +2,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import '../App.css';
+import Button from '@mui/material/Button';
+
 const Post = () => {
     return(
-        <div>
+        <div className="main_dev">
         <h2>単語帳一覧</h2>
         <ul>
           <li><Link to="/show">
@@ -22,8 +25,8 @@ const Post = () => {
             <div>更新日:00:00:00</div>
             <div>作成日:00:00:00</div>
         　</Link></li>
-          <li><Link to="/create">単語帳作成</Link></li>
         </ul>
+        <Link to="/create"><Button variant="outlined">単語帳作成</Button></Link>
       </div>
     );
 };
